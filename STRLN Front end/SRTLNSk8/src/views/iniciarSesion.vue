@@ -19,7 +19,7 @@
             </div>
             <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Iniciar Sesión</button>
             <p>¿Te olvidaste de la contraseña? <a href="#" class="text-blue-500 hover:bg-blue-100">Restablecer contraseña</a></p>
-            <p>¿No eres miembro? <a href="#" class="text-blue-500 hover:bg-blue-100">Registrate</a></p>
+            <p>¿No eres miembro? <RouterLink to="/registro"><a href="/src/views/registrarUsuario.vue" class="text-blue-500 hover:bg-blue-100">Registrate</a></RouterLink></p>
         </form>
         </div>
   </div>

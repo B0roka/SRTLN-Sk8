@@ -14,7 +14,7 @@
         <div class="logo">
             <RouterLink to="/"><img v-bind:src="logo" alt="Logo SRTLN"></RouterLink>
         </div>
-        <a href="#" class="btn"><button>Contacto</button></a>
+        <a href="#" class="btn"><RouterLink to="/ver-clientes"><button>Ver clientes</button></RouterLink></a>
     </header>
 </template>
 
