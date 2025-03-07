@@ -8,6 +8,7 @@ class SrtlnSk8ApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
