@@ -1,25 +1,33 @@
 <script setup>
-    
+   import { ref } from 'vue';
+
+    const value = ref(0);
+    const items = ref(["/src/assets/img/Kalis.jpg",
+        "/src/assets/img/converseBanner.jpg"
+    ]);
 </script>
 
 <template>
 
     <div class="flex h-screen">
-        <!--barra lateral de navegación-->
-        <div class="w-64  bg-yellow-300 flex-shrink-0">
-            <header class="text-center text-black text-4xl py-4">Nuestros productos</header>
-            <ul>
-                <li><a href="#" class="block text-black text-2xl py-4 px-10 border-b border-black hover:px-12 transition-all">Skates</a></li>
-                <li><a href="#" class="block text-black text-2xl py-4 px-10 border-b border-black hover:px-12 transition-all">Tenis</a></li>
-                <li><a href="#" class="block text-black text-2xl py-4 px-10 border-b border-black hover:px-12 transition-all">Ropa</a></li>
-            </ul>
-        </div>
 
         <!--contenido central de la pagina-->
         <div class="flex-grow flex flex-col items-center justify-start mt-10">
             <h1 class="text-4xl">Bienvenido a SRTLN SK8</h1>
-            <h2 class="text-2xl">Lo mejor en skateboarding</h2>
-            <img src="/src/assets/img/Kalis.jpg" alt="banner de la pagina" class="m-4 w-[75vh] p-4 border-double border-black border-2">
+            <h2 class="text-2xl mb-6">Lo mejor en skateboarding</h2>
+            <!--Carrusel-->
+            <div class="w-3/4 h-90 mx-auto">
+                <VaCarousel
+                    :items="items"
+                    stateful
+                    autoscroll
+                    infinite
+                >
+                    <template #default="{ index }">
+                        <img :src="items[index]"  class="w-3/4 h-64 object-cover rounded-md" />
+                    </template>
+                </VaCarousel>
+            </div>
 
             <!--Articulos-->
             <div class=" flex flex-row pt-4 space-x-15">
@@ -65,3 +73,4 @@
     font-family: "Indie Flower", serif;
    }
 </style>
+

@@ -47,7 +47,3 @@
   };
   </script>
   
-  <style scoped>
-  /* Tu código de estilo aquí */
-  </style>
-  

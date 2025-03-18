@@ -25,8 +25,13 @@ public class ClienteControlador {
         return clienteServicio.getClienteById(id);
     }
 
-    @PostMapping
+    @PostMapping(value = "/signup", consumes = "application/json")
     public Cliente createCliente(@RequestBody Cliente cliente){
         return clienteServicio.createCliente(cliente);
+    }
+
+    @GetMapping("/count")
+    public long getNumeroDeUsuarios() {
+        return clienteServicio.getNumeroDeUsuarios();
     }
 }
