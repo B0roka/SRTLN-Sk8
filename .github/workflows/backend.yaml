@@ -1,0 +1,28 @@
+name: Construye y prueba Spring Boot
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Verificar codigo
+      uses: actions/checkout@v3
+
+    - name: Installa el JDK
+      uses: actions/setup-java@v3
+      with:
+        java-version: '21'
+
+    - name: Instala Maven
+      run: mvn clean install
+
+    - name: Corre los tests
+      run: mvn test
