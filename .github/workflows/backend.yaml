@@ -21,6 +21,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Instala Maven
+      working-directory: STRLN Back-end/SRTLN_sk8/SRTLN_sk8/pom.xml
       run: mvn clean install
 
     - name: Corre los tests
