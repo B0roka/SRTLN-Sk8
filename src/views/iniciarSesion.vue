@@ -12,26 +12,22 @@
             };
         },
         methods: {
-            async handleLogin() {
-                try {
-                    const response = await fetch('http://localhost:8080/login', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/x-www-form-urlencoded'},
-                        body: new URLSearchParams({
-                            username: this.username,
-                            password: this.password,
-                        }),
-                    });
-                    if (response.ok) {
-                        //redirige al usuario tras el inicio de sesion exitoso
-                        window.location.href = '/';
-                    } else {
-                        alert('Credenciales invalidas.');
-                    }
-                } catch (error) {
-                    console.error('Error al iniciar sesion:', error);
-                }
-            }
+            handleLogin() {
+        // Datos de prueba para la simulación
+        const usuarioDemo = "admin@example.com";
+        const passwordDemo = "123456";
+
+        if (this.username === usuarioDemo && this.password === passwordDemo) {
+            // Simulación de éxito con advertencia antes de redirigir
+            alert("✅ Simulación exitosa: Has iniciado sesión correctamente. Serás redirigido a la página principal.");
+
+            // Redirigir a index (simulado)
+            window.location.href = "/";
+        } else {
+            alert("❌ Simulación fallida: Credenciales inválidas.");
+        }
+    }
+
         }
     }
 </script>

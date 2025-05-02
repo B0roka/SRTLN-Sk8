@@ -104,9 +104,11 @@
             </VaSidebarItem>
 
             <VaSidebarItem>
-              <VaSidebarItemContent>
-                <VaSidebarItemTitle>DC Shoes Co</VaSidebarItemTitle>
-              </VaSidebarItemContent>
+              <RouterLink to="/dc">
+                <VaSidebarItemContent>
+                  <VaSidebarItemTitle>Dc Shoes Co</VaSidebarItemTitle>
+                </VaSidebarItemContent>
+              </RouterLink>
             </VaSidebarItem>
 
             <VaSidebarItem>

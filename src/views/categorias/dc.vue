@@ -8,16 +8,16 @@
 
     const productos = ref([
         {
-            id: 1,
-            nombre: "Converse - AS-1",
+            id: 2,
+            nombre: "DC Shoes - Legacy 98 S",
             precio: "$1999.90",
-            img: "/img/as-1.jpg",
+            img: "/img/Dc-Legacy-98-s.jpg",
         },
         {
-            id: 13,
-            nombre: "Converse - One Star",
-            precio: "$2500.90",
-            img: "/img/categorias/converse/onestar.jpeg",
+            id: 14,
+            nombre: "Dc Shoes - Pure",
+            precio: "$999.00",
+            img: "/img/categorias/dc/pure.jpg",
         },
     ]);
 
@@ -26,11 +26,11 @@
 <template>
     <div class="container mx-auto px-4 flex flex-col items-center justify-start mt-10">
         <img class="border-4 rounded border-yellow-300 border-dashed my-5 max-w-full md:max-w-[900px] h-auto p-4" 
-            src="/img/converseBanner.jpg" alt="tablas de skate">
+            src="/img/Kalis.jpg" alt="tablas de skate">
         
-        <h1 class="text-lg sm:text-xl md:text-3xl font-bold text-center">Converse Cons</h1>
+        <h1 class="text-lg sm:text-xl md:text-3xl font-bold text-center">DC Shoes</h1>
         <p class="text-sm sm:text-lg md:text-xl text-gray-700 text-center">
-            Una marca clasica para romper con la lija
+            lo mejor del estilo urbano
         </p>
         <h2 class="mb-5 text-center"><em>SRTLN8 Sk8</em></h2>
 

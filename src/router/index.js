@@ -14,6 +14,7 @@ import jorts from '@/views/productos/jorts.vue';
 import tablas from '@/views/categorias/tablas.vue';
 import trucks from '@/views/categorias/trucks.vue';
 import converse from '@/views/categorias/converse.vue';
+import dc from '@/views/categorias/dc.vue';
 
 const routes = [
     { path: '/', component: index} ,
@@ -31,6 +32,7 @@ const routes = [
     { path: '/tablas', component: tablas},
     { path: '/trucks', component: trucks},
     { path: '/convers', component: converse},
+    { path: '/dc', component: dc},
 ]
 
 const router = createRouter({

@@ -36,6 +36,54 @@
             precio: "$1200.90",
             img: "/img/dickies-chort.jpg",
         },
+        {
+            id: 12,
+            nombre: "ACE - AF1 Hollow",
+            precio: "$2300.90",
+            img: "/img/categorias/trucks/Ace.jpeg",
+        },
+        {
+            id: 9,
+            nombre: "Primitive - My hero academia",
+            precio: "$1000.90",
+            img: "/img/categorias/decks/hero.jpg",
+        },
+        {
+            id: 13,
+            nombre: "Converse - One Star",
+            precio: "$2500.90",
+            img: "/img/categorias/converse/onestar.jpeg",
+        },
+        {
+            id: 10,
+            nombre: "TAco - Abstratco",
+            precio: "$799.50",
+            img: "/img/categorias/decks/taco.jpeg",
+        },
+        {
+            id: 6,
+            nombre: "Zero - Misfits",
+            precio: "$2500.90",
+            img: "/img/categorias/decks/misfits.jpg",
+        },
+        {
+            id: 7,
+            nombre: "Baker - original",
+            precio: "$1000.90",
+            img: "/img/categorias/decks/baker.jpeg",
+        },
+        {
+            id: 8,
+            nombre: "Heroin - Huevo",
+            precio: "$999.90",
+            img: "/img/categorias/decks/nail.jpg",
+        },
+        {
+            id: 14,
+            nombre: "Dc Shoes - Pure",
+            precio: "$999.00",
+            img: "/img/categorias/dc/pure.jpg",
+        },
     ]);
 
 </script>
