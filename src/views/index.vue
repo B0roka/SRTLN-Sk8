@@ -50,13 +50,14 @@
             <h2 class="text-2xl mb-6">Lo mejor en <em>"skateboring"</em></h2>
 
             <div class="w-full max-w-[900px] mx-auto text-center px-4">
-                <h2 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700 mb-4"> 🔥 Mira nuestro video promocional 🔥</h2>
-                <video controls
+                <h2 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700 mb-4">🔥 Mira nuestro video promocional 🔥</h2>
+                <iframe 
                     class="w-full max-w-[900px] rounded-lg shadow-md border-4 border-yellow-300 aspect-video object-cover"
-                    src="/video/SRTLNsK8.mp4" type="video/mp4">
-                    Tu navegador no soporta la reproduccion de videos.
-                </video>
+                    src="https://utmedu-my.sharepoint.com/personal/al02891318_tecmilenio_mx/_layouts/15/embed.aspx?UniqueId=ecf8bcff-5833-4c8a-94c2-483edf993262&nav=%7B%22playbackOptions%22%3A%7B%22startTimeInSeconds%22%3A0%7D%7D&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" 
+                    allowfullscreen>
+                </iframe>
             </div>
+
             
 
 
