@@ -53,10 +53,11 @@
                 <h2 class="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700 mb-4">🔥 Mira nuestro video promocional 🔥</h2>
                 <iframe 
                     class="w-full max-w-[900px] rounded-lg shadow-md border-4 border-yellow-300 aspect-video object-cover"
-                    src="https://utmedu-my.sharepoint.com/personal/al02891318_tecmilenio_mx/_layouts/15/embed.aspx?UniqueId=ecf8bcff-5833-4c8a-94c2-483edf993262&nav=%7B%22playbackOptions%22%3A%7B%22startTimeInSeconds%22%3A0%7D%7D&embed=%7B%22af%22%3Atrue%2C%22ust%22%3Atrue%2C%22hv%22%3A%22CopyEmbedCode%22%7D&referrer=StreamWebApp&referrerScenario=EmbedDialog.Create" 
+                    src="https://www.youtube.com/embed/9RucpjO2_bQ" 
                     allowfullscreen>
                 </iframe>
             </div>
+
 
             
 
